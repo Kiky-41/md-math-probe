@@ -1,17 +1,15 @@
-# probe4
+# probe5
 
-| A | B | C | D |
-|---|---|---|---|
-| $V_i,\theta_i$ | $\mathbf{X}_\alpha,\mathbf{X}_\beta,\mathbf{X}_\delta$ | F1 | see |
-| $V_i,\theta_i$ | $\mathbf{X}_{\alpha},\mathbf{X}_{\beta},\mathbf{X}_{\delta}$ | F2 | see |
-| $p$ | $\mathbf{X}_\alpha$ then $\mathbf{X}_\beta$ | F3 | see |
+| A | B |
+|---|---|
+| $V_i$ | $\mathbf X_\alpha,\mathbf X_\beta,\mathbf X_\delta$ |
 
-F4 plain $\mathbf{X}_\alpha$ and $\mathbf{X}_\beta$ text.
+F9 $\mathbf H_{k+1}$ and $\mathbf H_{k+1}$.
 
-F5 With $\mathbf{s}_k=\mathbf{x}_{k+1}-\mathbf{x}_k$ and $\mathbf{y}_k=\nabla\Phi_{k+1}-\nabla\Phi_k$, when $\mathbf{s}_k^{\top}\mathbf{y}_k\gt10^{-10}$.
+F10 $\mathbf X_\alpha$ and $\mathbf X_\beta$.
 
-F6 With ${\mathbf{s}}_k={\mathbf{x}}_{k+1}-{\mathbf{x}}_k$ and ${\mathbf{y}}_k$ here.
+F11 $\mathbf H_{k+1}\leftarrow\mathbf I$ when $\mathrm{rcond}(\mathbf H_{k+1})\le10^{-14}$.
 
-F7 $\mathbf{s}_{k}$ and $\mathbf{x}_{k+1}$ here.
+F12 with $\mathbf s_k=\mathbf x_{k+1}-\mathbf x_k$ and $\mathbf y_k$ here.
 
-F8 $\mathbf{H}_{k+1}\leftarrow\mathbf{I}$ when $\mathrm{rcond}(\mathbf{H}_{k+1})\le10^{-14}$.
+F13 $\mathbf{H}_{k+1}$ and $\mathbf H_{k+1}$ mixed.
