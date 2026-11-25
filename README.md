@@ -1,19 +1,21 @@
-# probe2
+# probe3
 
-C1 $\mathbf{H}_{k+1}\leftarrow\mathbf{I}$, when $\mathrm{rcond}(\mathbf{H}_{k+1})\le10^{-14}$.
+D1 $\mathbf{A}_{k+1}$ and $\mathbf{B}_{k+1}$.
 
-C2 $\mathbf{H}_{k+1}\leftarrow\mathbf{I}$ and $\mathrm{rcond}(\mathbf{H}_{k+1})\le10^{-14}$.
+D2 $\mathbf{H}_{k}$ and $\mathbf{H}_{k}$.
 
-C3 $\mathbf{H}_{k+1}\leftarrow\mathbf{I}$ and $x$.
+D3 $H_{k+1}$ and $H_{k+1}$.
 
-C4 $x$ and $\mathrm{rcond}(\mathbf{H}_{k+1})\le10^{-14}$.
+D4 $x_{k+1}$ and $x_{k+1}$.
 
-C5 $a_{k+1}$ and $b_{k+1}$.
+D5 $\mathbf{H}_k$ and $\mathbf{H}_k$.
 
-C6 $\mathbf{s}_k=\mathbf{x}_{k+1}-\mathbf{x}_k$ and $y$.
+D6 $\mathbf{H}_{k+1}$ and $b$.
 
-C7 $\mathbf{H}_{k+1}=\mathbf{I}$ and $\mathbf{H}_{k+1}=\mathbf{I}$.
+D7 $\mathbf{H}_{k}$, then $\mathbf{H}_{k}$.
 
-C8 $\mathbf{H}_{k+1}$ and $\mathbf{H}_{k+1}$.
+D8 $\mathbf{I}$ and $\mathbf{H}_{k+1}$.
 
-C9 $\alpha_k$ and $\beta_k$.
+D9 $\mathbf{H}_{k+1}$ alone.
+
+D10 rcond $\mathrm{rcond}(\mathbf{H}_{k+1})\le10^{-14}$ plus $x$.
