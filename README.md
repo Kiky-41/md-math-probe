@@ -1,21 +1,19 @@
-# probe
+# probe2
 
-$$\mathbf{H}_{k+1}=\mathbf{I}$$
+C1 $\mathbf{H}_{k+1}\leftarrow\mathbf{I}$, when $\mathrm{rcond}(\mathbf{H}_{k+1})\le10^{-14}$.
 
-A update rejected, and $\mathbf{H}_{k+1}\leftarrow\mathbf{I}$, when $\mathrm{rcond}(\mathbf{H}_{k+1})\le10^{-14}$.
+C2 $\mathbf{H}_{k+1}\leftarrow\mathbf{I}$ and $\mathrm{rcond}(\mathbf{H}_{k+1})\le10^{-14}$.
 
-$$\mathbf{H}_{k+1}=\mathbf{I}$$
+C3 $\mathbf{H}_{k+1}\leftarrow\mathbf{I}$ and $x$.
 
-B1 $\mathbf{H}_{k+1}\leftarrow\mathbf{I}$ alone.
+C4 $x$ and $\mathrm{rcond}(\mathbf{H}_{k+1})\le10^{-14}$.
 
-B2 $\mathbf{H}_{k+1}$ and $\mathbf{I}$ two maths.
+C5 $a_{k+1}$ and $b_{k+1}$.
 
-B3 $\mathbf{s}_k=\mathbf{x}_{k+1}-\mathbf{x}_k$ equation.
+C6 $\mathbf{s}_k=\mathbf{x}_{k+1}-\mathbf{x}_k$ and $y$.
 
-B4 $a=b$ plain equation.
+C7 $\mathbf{H}_{k+1}=\mathbf{I}$ and $\mathbf{H}_{k+1}=\mathbf{I}$.
 
-B5 $\mathrm{rcond}(\mathbf{H}_{k+1})\le10^{-14}$ le.
+C8 $\mathbf{H}_{k+1}$ and $\mathbf{H}_{k+1}$.
 
-B6 $\mathbf{H}_{k+1} \leftarrow \mathbf{I}$ spaced.
-
-B7 no display before: $\mathbf{H}_{k+1}\leftarrow\mathbf{I}$ and $x$.
+C9 $\alpha_k$ and $\beta_k$.
